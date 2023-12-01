@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ProyectoAppTecnologia"
+rootProject.name = "LAStore"
 include(":app")
+ 

@@ -1,4 +1,4 @@
-package com.example.proyectoapptecnologia
+package com.cibertec.lastore
 
 import org.junit.Test
 
