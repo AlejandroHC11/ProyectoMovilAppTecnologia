@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/beige"
+    tools:context=".SobreNosotros">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:text="Sobre Nosotros"
+        android:textStyle="bold"
+        android:textColor="@color/main_orange"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Descubre la excelencia en cada detalle con nuestros productos en L.A.STORE. Desde electrodomésticos innovadores hasta soluciones inteligentes para tu hogar, nos dedicamos a ofrecer calidad y estilo que transforman tu vida cotidiana. "
+        android:textStyle="bold"
+        />
+
+    <VideoView
+        android:id="@+id/vdSobreUno"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="179dp">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Contamos con excelentos productos: Licuadoras, Lavadoras, Cocina y Computadoras"
+        android:textStyle="bold"
+        />
+
+    <VideoView
+        android:id="@+id/vdSobreDos"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="179dp">
+    </VideoView>
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/main_orange"
+        android:layout_margin="10dp"
+        android:text="Atras" />
+
+</LinearLayout>

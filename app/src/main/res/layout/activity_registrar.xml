@@ -7,8 +7,41 @@
     tools:context=".Registrar"
     android:orientation="vertical"
     android:gravity="center_vertical"
+    android:background="@color/beige"
+
     android:layout_marginBottom="50dp"
     >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            >
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/logo_lastore_foreground" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTRO DE      USUARIOS"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:textSize="20dp"
+                android:textColor="@color/main_orange"
+                android:textStyle="bold"
+                >
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,11 +62,13 @@
                 android:layout_marginLeft="10dp"
                 android:gravity="center"
                 android:text="Usuario:"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
+                android:textColorHint="@color/white"
                 android:layout_height="65dp"
                 >
                 <com.google.android.material.textfield.TextInputEditText
@@ -41,6 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="20dp"
+                    android:textColor="@color/white"
                     android:hint="Ingresar usuario" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
@@ -56,6 +92,7 @@
                 android:layout_height="40dp"
                 android:gravity="center"
                 android:textSize="17dp"
+                android:textColor="@color/white"
                 android:layout_marginLeft="20dp"
                 android:textStyle="bold"
                 android:text="Contraseña:" />
@@ -63,12 +100,14 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
+                android:textColorHint="@color/white"
                 >
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/textFieldContra"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="20dp"
+                    android:textColor="@color/white"
                     android:hint="Ingresar contraseña" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
@@ -78,7 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="23dp"
             android:textStyle="bold"
             android:textSize="17dp"
             android:text="Registrar" />

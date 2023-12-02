@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="24dp"
+        android:background="@color/beige"
         >
 
         <LinearLayout
@@ -25,7 +26,7 @@
                 android:layout_height="50dp"
                 android:text="idProd:"
                 android:textSize="19dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:id="@+id/textViewidProducto"
 
                 >
@@ -35,7 +36,7 @@
                 android:layout_height="50dp"
                 android:text="nro"
                 android:textSize="19dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:id="@+id/textViewNroidProd"
 
                 >
@@ -53,7 +54,7 @@
                 android:layout_height="50dp"
                 android:text="Nombre:"
                 android:textSize="19dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:id="@+id/textViewName"
 
                 >
@@ -61,11 +62,13 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
+                android:textColorHint="@color/white"
                 android:layout_height="60dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtFieldNombre"
                     android:layout_width="match_parent"
+                    android:textColorHint="@color/white"
                     android:layout_height="wrap_content"
                     />
             </com.google.android.material.textfield.TextInputLayout>
@@ -80,7 +83,7 @@
                 android:layout_height="50dp"
                 android:text="Link Img:"
                 android:textSize="19dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:id="@+id/textViewLinkImg"
 
                 >
@@ -88,11 +91,13 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
+                android:textColorHint="@color/white"
                 android:layout_height="60dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtFieldLinkImg"
                     android:layout_width="match_parent"
+                    android:textColorHint="@color/white"
                     android:layout_height="wrap_content"
                     />
             </com.google.android.material.textfield.TextInputLayout>
@@ -107,7 +112,7 @@
                 android:layout_height="50dp"
                 android:text="Precio:"
                 android:textSize="19dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:id="@+id/textViewPrecio"
 
                 >
@@ -115,11 +120,13 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
+                android:textColorHint="@color/white"
                 android:layout_height="60dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtFieldPrecio"
                     android:layout_width="match_parent"
+                    android:textColorHint="@color/white"
                     android:layout_height="wrap_content"
                     />
             </com.google.android.material.textfield.TextInputLayout>
@@ -134,7 +141,7 @@
                 android:layout_height="50dp"
                 android:text="Stock:"
                 android:textSize="19dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:id="@+id/textViewStock"
 
                 >
@@ -142,10 +149,12 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
+                android:textColorHint="@color/white"
                 android:layout_height="match_parent">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtFieldStock"
+                    android:textColorHint="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     />
@@ -161,7 +170,7 @@
                 android:layout_height="50dp"
                 android:text="Categoria:"
                 android:textSize="19dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:id="@+id/textViewCategoria"
 
                 >
@@ -169,10 +178,12 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
+                android:textColorHint="@color/white"
                 android:layout_height="match_parent">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtFieldCategoria"
+                    android:textColorHint="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     />

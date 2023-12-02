@@ -13,6 +13,13 @@ class MenuPrincipal : AppCompatActivity() {
         val buttonVerProductos : Button = findViewById(R.id.btnProductos)
         val buttonVerUsuarios : Button = findViewById(R.id.btnUsuarios)
         val buttonSalir : Button = findViewById(R.id.btnSalir)
+        val buttonVentas: Button = findViewById(R.id.btnVentas)
+        val buttonSobreNosotros: Button = findViewById(R.id.btnSobreNosotros)
+
+        buttonSobreNosotros.setOnClickListener{
+            val sobrenosotros = Intent(this,SobreNosotros::class.java)
+            startActivity(sobrenosotros)
+        }
 
         buttonVerProductos.setOnClickListener{
             val ListadoProductosWindow = Intent(this, ListadoProductos::class.java)
@@ -28,6 +35,10 @@ class MenuPrincipal : AppCompatActivity() {
             val InicioWindow = Intent(this,Inicio::class.java)
             startActivity(InicioWindow)
             finish()
+        }
+        buttonVentas.setOnClickListener{
+            val ListadoVentasWindow=Intent(this, ListadoVentas::class.java)
+            startActivity(ListadoVentasWindow)
         }
     }
 }

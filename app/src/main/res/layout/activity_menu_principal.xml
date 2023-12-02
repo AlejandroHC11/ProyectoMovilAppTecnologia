@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/beige"
     tools:context=".MenuPrincipal">
 
     <androidx.cardview.widget.CardView
@@ -40,8 +41,42 @@
     </androidx.cardview.widget.CardView>
 
 
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenidos a L.A STORE"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/main_orange"
 
+    >
+    </TextView>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:text="Explora nuestra amplia gama de electrodomésticos innovadores y descubre cómo transformamos tus espacios en hogares llenos de comodidad y estilo. Estamos aquí para ayudarte en cada paso, brindándote la mejor experiencia de compra y el respaldo de nuestro excepcional servicio al cliente."
+    >
+    </TextView>
 
+    <Button
+            android:id="@+id/btnSobreNosotros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobre nosotros"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/main_orange"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:textSize="17dp"
+    />
     <Button
         android:id="@+id/btnProductos"
         android:layout_width="match_parent"
@@ -58,6 +93,14 @@
         android:layout_margin="10dp"
         android:backgroundTint="@color/main_orange"
         />
+    <Button
+            android:id="@+id/btnVentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Ventas"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/main_orange"
+    />
     <Button
         android:id="@+id/btnSalir"
         android:layout_width="match_parent"
