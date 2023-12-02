@@ -27,9 +27,7 @@ class SobreNosotros : AppCompatActivity() {
         val uri: Uri = Uri.parse(urlVideo1)
         videoView.setVideoURI(uri)
 
-        videoView = findViewById(R.id.vdSobreDos)
-        val urii: Uri = Uri.parse(urlVideo2)
-        videoView.setVideoURI(urii)
+
 
         val mediaController = MediaController(this)
         mediaController.setAnchorView(videoView)

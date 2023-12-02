@@ -8,10 +8,10 @@ import androidx.recyclerview.widget.RecyclerView
 
 class VentaAdapter (private val mList:List<Venta>):RecyclerView.Adapter<VentaAdapter.ViewHolder>(){
     class ViewHolder(ItemView: View):RecyclerView.ViewHolder(ItemView){
-        val txtIdVenta : TextView = ItemView.findViewById(R.id.txtviewIdVenta)
-        val txtCodPro : TextView = ItemView.findViewById(R.id.txtviewCodProducto)
-        val txtNomPro : TextView = ItemView.findViewById(R.id.txtviewNomProducto)
-        val txtMonto : TextView = ItemView.findViewById(R.id.txtviewMonto)
+        val txtIdVenta : TextView = ItemView.findViewById(R.id.txtviewVenta)
+        val txtCodPro : TextView = ItemView.findViewById(R.id.txtviewcoProducto)
+        val txtNomPro : TextView = ItemView.findViewById(R.id.txtviewProducto)
+        val txtMonto : TextView = ItemView.findViewById(R.id.txtviewMontoo)
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_venta, parent, false)
